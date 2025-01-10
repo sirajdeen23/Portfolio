@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c62a3a51a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNER</p>
+                <h1>Hi, i'm <span>SIRAJ</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pg-png.jpg" class="about-img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and skilled Full Stack Developer with expertise in HTML, CSS, JavaScript, React.js, Java, Spring Boot, and MySQL. I specialize in designing and developing user-friendly, dynamic, and responsive web applications. My strong problem-solving skills and keen interest in debugging help me create efficient solutions for complex challenges. <br><br>
+                        With experience in developing projects like Task Management Systems and Hostel Management Systems, along with a self-designed Portfolio Website, I am continually expanding my technical knowledge and enhancing my skill set. I strive to deliver quality-driven results and enjoy collaborating with teams to bring ideas to life.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        
+                        <ul>
+                                <li><h3><span>Programming Languages:</span></h3></li>
+                                    <li>JAVA</li>
+                                <li><h3><span>Front-End Development Skills:</span></h3></li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                <li><span><h3>Frameworks:</h3></span></li>
+                                    <li>React.js</li>
+                                <li><span><h3>Back-End Development Skills:</h3></span></li>
+                                <li>Database Management</li>
+                                    <li>MYSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Bookstore</span><br>A web-based application developed to streamline bookstore operations. The system allows users to browse books, manage inventory, and process orders efficiently. Built with Java and Spring Boot on the backend, it features a responsive front-end using HTML, CSS, and JavaScript. The application ensures seamless functionality, offering an intuitive interface for both administrators and customers.</li>
+                            <li><span>Portfolio</span><br>A personal portfolio website designed and developed using HTML, CSS, and JavaScript. It showcases projects, skills, and achievements in a visually appealing and responsive layout. The website includes interactive elements, smooth navigation, and is optimized for various devices.</li>
+                            <li><span>React proj-Ongoing</span><br>Designing web app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B,Sc-Information Technology</span><br>JP college of arts & science,Ayikudi <br>CGPA:7.6/10</li>
+                            <li><span>HSC</span><br>Government Higher Secondary School,Sivagurunathapuram <br>Percentage:67.99/100%</li>
+                            <li><span>SSLC</span><br>Government Higher Secondary School,Sivagurunathapuram <br>Percentage:53.99/100%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services------------------------- -->
+     <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My services</h1>
+        </div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>WEB Design</h2>
+                <p>I am a passionate and detail-oriented Web Developer with expertise in front-end and back-end technologies, including HTML, CSS, JavaScript, React.js, Java, and Spring Boot. I specialize in creating dynamic, responsive, and user-friendly web applications that deliver exceptional user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> java developer</h2>
+                <p>I am a dedicated Java Developer with a strong foundation in backend development and a passion for building scalable and efficient applications. With expertise in Java, Spring Boot, and MySQL, I specialize in designing and developing robust solutions that meet both user and business needs.
+
+                    I have hands-on experience with RESTful APIs, database management, and debugging, ensuring high-performance and maintainable code. My projects, such as a Bookstore Management System and a Task Management System, reflect my ability to implement complex functionality with clean and modular code.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>mysql developer</h2>
+                <p>I am a skilled MySQL Developer with extensive experience in database design, optimization, and query development. I specialize in creating efficient, scalable, and high-performance databases to support complex applications. With a solid understanding of data modeling, normalization, and SQL query writing, I focus on delivering reliable and optimized database solutions.
+
+                    My projects, such as a Bookstore Management System and a Task Management System, demonstrate my ability to design and manage relational databases, ensuring smooth data flow and quick access.</p>
+                <a href="#">Learn more</a>
+            </div>
+            </div>
+        </div>
+      </div>
+     <!-- -----------------------------------portfolio-------------------------------------  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="img-size" src="/portfolio proj/port.jpg" >
+                    <div class="layer">
+                        <h3>portfolio Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias pariatur velit quisquam sequi corporis? Rem voluptatum quae suscipit tenetur harum. Nam ea vero doloribus culpa et est facilis, corporis laboriosam maiores deleniti. Ipsam nihil dignissimos autem corrupti veniam id temporibus, consectetur aliquam animi explicabo ipsum unde cum labore asperiores doloribus?</p>
+                        <a href="#">Click Me</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img-size" src="/portfolio proj/bookshelf.jpg" >
+                    <div class="layer">
+                        <h3>Bookstore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias pariatur velit quisquam sequi corporis? Rem voluptatum quae suscipit tenetur harum. Nam ea vero doloribus culpa et est facilis, corporis laboriosam maiores deleniti. Ipsam nihil dignissimos autem corrupti veniam id temporibus, consectetur aliquam animi explicabo ipsum unde cum labore asperiores doloribus?</p>
+                        <a href="#">Click Me</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img-size" src="/portfolio proj/mysql.jpg" >
+                    <div class="layer">
+                        <h3>Hostel Management Database</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias pariatur velit quisquam sequi corporis? Rem voluptatum quae suscipit tenetur harum. Nam ea vero doloribus culpa et est facilis, corporis laboriosam maiores deleniti. Ipsam nihil dignissimos autem corrupti veniam id temporibus, consectetur aliquam animi explicabo ipsum unde cum labore asperiores doloribus?</p>
+                        <a href="#">Click Me</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+        <br>
+                    <br>
+                    <br>
+                    <br>
+    </div>
+<!------------------------------------contact-------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    
+                    <h1>SIRAJDEEN</h1>
+                    <p><a href="deens329@gmail.com">deens329@gmail.com</a></p>
+                    <p>+91-6374428936</p><br>
+                    <div class="social-icons">
+                     <i class="fa-brands fa-instagram"><a href=""></a></i>
+                     <i class="fa-brands fa-github"><a href=""></a></i>
+                     <i class="fa-brands fa-linkedin"><a href=""></a></i>    
+                    </div>
+                    <a href="/portfolio proj/SIRAJDEEN R FULLSTACK RESUME.pdf" download class="btn btn2">Download CV</a>
+                   </div>
+                   <div class="contact-right">
+                       <form action="">
+                           <input type="text" name="Name" placeholder="Your Name" required>
+                           <input type="email" name="Email" placeholder="Your Email" required>
+                           <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                           <button type="submit" class="btn btn2">submit</button>
+                       </form>
+                   </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright sirajdeen. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function  closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
