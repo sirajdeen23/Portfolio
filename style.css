@@ -63,17 +63,17 @@ width: 100%;
 }
 
 .header-text h1{
-font-size: 50px;
+font-size: 80px;
 margin-top: 20px;
 
 }
 
 .header-text h1 span{
     color: #ff004f;
-    animation: blink 2s infinite;
+    animation: blink 1s infinite;
 }
 @keyframes blink{
-   50%{ opacity: 0;}
+   80%{ opacity: 0;}
 }
 
 /* --------------about------------- */
