@@ -20,3 +20,14 @@ function openmenu(){
 function  closemenu(){
     sidemenu.style.right="-200px";
 }
+
+  const cvBtn = document.querySelector('.cv-btn');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      cvBtn.classList.add('show');
+    } else {
+      cvBtn.classList.remove('show');
+    }
+  });
+
