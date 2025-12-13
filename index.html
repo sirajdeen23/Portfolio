@@ -23,13 +23,11 @@
                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Full-Stack Web Developer | Building responsive apps with React & Spring Boot</p>
+                <p>Full-Stack Web Developer <br>  Building responsive apps with <br>React & Spring Boot</p>
                 <h1>Hi, i'm <span>SIRAJ</span></h1>
             </div>
         </div>
-        <a href="Siraj_Java-Fullstack_Experience.pdf" download class="cv-btn">
-  ⬇ Download CV
-</a>
+        <a href="Siraj_Java-Fullstack_Experience.pdf" download class="cv-btn">Download Resume</a>
 
     </div>
     <div id="about">
@@ -56,10 +54,11 @@
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
+                                    <li>Bootstrap</li>
                                 <li><span><h3>Frameworks:</h3></span></li>
                                     <li>React.js</li>
                                     <li>Springboot</li>
-                                     <li>JSP Servlet</li>
+                                    <li>JSP Servlet</li>
                                 <li><span><h3>Back-End Development Skills</h3></span></li>
                                 <li>Database Management</li>
                                     <li>MYSQL</li>
@@ -74,8 +73,8 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span><h3>Java FULLSTACK Developer</h3></span><br>Sphinax Info System<br>Feb-2025 To Oct-2025</li>
-                            <li><span><h3>Freelancing</h3></span><br>Websites<br></li>
+                            <li><span><h3>Java Full-Stack Developer</h3></span><br>Sphinax Info System<br>Feb-2025 To Oct-2025</li>
+                            <li><span><h3>Freelancing</h3></span><br>Websites & Applications<br></li>
                         </ul>
                     </div>
                 </div>
@@ -205,6 +204,18 @@
         function  closemenu(){
             sidemenu.style.right="-200px";
         }
+
+        const cvBtn = document.querySelector('.cv-btn');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      cvBtn.classList.add('show');
+    } else {
+      cvBtn.classList.remove('show');
+    }
+  });
+
     </script>
+    
 </body>
 </html>
