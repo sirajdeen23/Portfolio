@@ -127,6 +127,9 @@ margin-top: 20px;
     bottom: -8px;
     transition: 0.5s;   
 }
+.tab-contents_height{
+    min-height: 575px;
+}
 
 .tab-links.active-link::after{
     width: 75%;   
